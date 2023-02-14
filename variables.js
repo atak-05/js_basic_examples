@@ -131,35 +131,66 @@
 
 
 
-// * ---------------------------------------------------------------------------------------------------//    
-// * Exercise 08 - Variable Comparison//
+// // * ---------------------------------------------------------------------------------------------------//    
+// // * Exercise 09 - Variable Comparison//
 
-// Try to predict the output of the comparisons before printing them in the console
-const firstName = "Mario";
-const lastname = "Rossi";
-const age = 27;
-const isGraduated = false;
-const average = 27;
-const examsCompleted = 10;
+// // Try to predict the output of the comparisons before printing them in the console
+// const firstName = "Mario";
+// const lastname = "Rossi";
+// const age = 27;
+// const isGraduated = false;
+// const average = 27;
+// const examsCompleted = 10;
+// const firstYearCompleted = true;
+// const yearsCompleted = 1;
+
+// // * =================================================================================================//
+// /* Notice ; "==" vs "===" The most fundamental difference between two equals and three equals-
+// is the type and value comparison. When you use three equals, it compares both the type and -
+// value of two values, while if two equals equalizes the types of the values, it only compares values. */
+// // * =================================================================================================//
+
+// console.log (firstName == lastname); //output: Mario not equal to Rossi so result is false
+// console.log(age <= average); //output: 27 equal to 27 so result is true
+// console.log(firstYearCompleted == lastname);//output: true  not equal to Rossi  so result is false
+// console.log(yearsCompleted == firstYearCompleted);//output: true  equal to true  so result is true
+// console.log(firstYearCompleted === yearsCompleted);//output: false because they have different data types
+// console.log(examsCompleted < age);//output: 10 less than 27 so result is true
+// console.log(isGraduated > yearsCompleted);//output: false
+
+
+
+// * ---------------------------------------------------------------------------------------------------//    
+// * Exercise 10 - Variable Comparison//
+
+// Explain the difference between the double and the triple equals operator.
 const firstYearCompleted = true;
 const yearsCompleted = 1;
 
-// * =================================================================================================//
+yearsCompleted == firstYearCompleted
+yearsCompleted === firstYearCompleted
+
 /* Notice ; "==" vs "===" The most fundamental difference between two equals and three equals-
 is the type and value comparison. When you use three equals, it compares both the type and -
 value of two values, while if two equals equalizes the types of the values, it only compares values. */
 // * =================================================================================================//
 
-console.log (firstName == lastname); //output: Mario not equal to Rossi so result is false
-console.log(age <= average); //output: 27 equal to 27 so result is true
-console.log(firstYearCompleted == lastname);//output: true  not equal to Rossi  so result is false
-console.log(yearsCompleted == firstYearCompleted);//output: true  equal to true  so result is true
-console.log(firstYearCompleted === yearsCompleted);//output: false because they have different data types
-console.log(examsCompleted < age);//output: 10 less than 27 so result is true
-console.log(isGraduated > yearsCompleted);//output: false
+// * ---------------------------------------------------------------------------------------------------//    
+// * Exercise 11 - Variable Comparison//
 
-
-
-
-
-
+// Modify the second term of the expression in order to get true as result.
+10 < 9
+45 == 34
+true === 1
+false === 0
+1 == 0
+4 <= 2
+4 >= 8
+//Answers//
+console.log(10 < 20);
+console.log(45 == 45);
+console.log(true === true);
+console.log(false === false);
+console.log(1 == 1);
+console.log(4 <= 4);
+console.log(4 >= 4);
