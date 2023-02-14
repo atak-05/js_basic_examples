@@ -12,9 +12,10 @@ const model = "model";
 const productionYear = 2022;
 let ownersName = "ownersName";
 let isNew = true;
-
+console.log("------Exercise 1-Answer ---------");
 // * ---------------------------------------------------------------------------------------------------//
 //  *Exercise 02 - Variable Naming //
+console.log("------Exercise 2-Answer ---------");
 // Write a better names for variables where it's necessary.
 // let _name = 'mario';
 // let *surname = 'Rossi';
@@ -32,6 +33,7 @@ let isNew = true;
 
 // * ---------------------------------------------------------------------------------------------------//
 //  *Exercise 03 - Numbers //
+console.log("------Exercise 3-Answer ---------");
 // Create 3 variables: area, x, y
 // Use the variable called area to print in console the area of the rectangle.
 
@@ -44,6 +46,7 @@ let isNew = true;
 
 // * ---------------------------------------------------------------------------------------------------//
 //  *Exercise 04 - String //
+console.log("------Exercise 4-Answer ---------");
 // Create the variables firstName, lastName and fullName.
 // Assign them a value and print in the console the full name
 
@@ -56,6 +59,7 @@ let isNew = true;
 
 // * ---------------------------------------------------------------------------------------------------//
 //  *Exercise 05 - Boolean //
+console.log("------Exercise 5-Answer ---------");
 // Create the variables isDoorClosed and isDogOutside. Set the isDoorClosed variable to true and isDogOutside variable to false.
 // Run the script.
 // Try to invert the variables values and see what happens.
@@ -76,6 +80,7 @@ let isNew = true;
 
 // * ---------------------------------------------------------------------------------------------------//    
 // * Exercise 06 - Type Conversion//
+console.log("------Exercise 6-Answer ---------");
 // Convert the hello variable to a boolean data type.
 // Convert the age variable to a string data type.
 // Convert the isGraduated variable to a numeric data type
@@ -95,6 +100,7 @@ let isNew = true;
 
 // * ---------------------------------------------------------------------------------------------------//    
 // * Exercise 07 - Type Conversion//
+console.log("------Exercise 7-Answer ---------");
 // Convert the hello variable to a numeric data type and print it in the console.
 // Convert the age variable to a boolean data type and print it in the console.
 // Convert the isGraduated variable to a string data type and print it in the console.
@@ -112,7 +118,7 @@ let isNew = true;
 
 // * ---------------------------------------------------------------------------------------------------//    
 // * Exercise 08 - Type Conversion//
-
+console.log("------Exercise 8-Answer ---------");
 // Create a variable and set it to true.
 // Print the value in the console and the data type.
 // Convert it to a numeric data type, print the value and the data type.
@@ -138,7 +144,7 @@ let isNew = true;
 
 // * ---------------------------------------------------------------------------------------------------//    
 // * Exercise 09 - Variable Comparison//
-
+console.log("------Exercise 9-Answer ---------");
 // Try to predict the output of the comparisons before printing them in the console
 // const firstName = "Mario";
 // const lastname = "Rossi";
@@ -167,7 +173,7 @@ value of two values, while if two equals equalizes the types of the values, it o
 
 // * ---------------------------------------------------------------------------------------------------//    
 // * Exercise 10 - Variable Comparison//
-
+console.log("------Exercise 10-Answer ---------");
 // Explain the difference between the double and the triple equals operator.
 const firstYearCompleted = true;
 const yearsCompleted = 1;
@@ -182,7 +188,7 @@ value of two values, while if two equals equalizes the types of the values, it o
 
 // * ---------------------------------------------------------------------------------------------------//    
 // * Exercise 11 - Variable Comparison//
-
+console.log("------Exercise 11-Answer ---------");
 // Modify the second term of the expression in order to get true as result.
 // 10 < 9
 // 45 == 34
