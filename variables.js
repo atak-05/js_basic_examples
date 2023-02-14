@@ -1,24 +1,27 @@
-// //  *Exercise 01 - Variable Naming // 
-// // Create four variables (brand, model, production year, owner's name) and assign them a value. Use let and const where appropriate.
-// // Create a variable to define if a car is new or not new.
-// // Use the number, boolean and string data type to create the variables.
-// // If you use a name with more than one word, remember to use the camel case naming convention.
+//Turn off the comment line of each blog to work. Note: The shortcut for this is CTRL + K + U
 
-// const brand = "brand";
-// const model = "model";
-// const productionYear = 2022;
-// let ownersName = "ownersName";
-// let isNew = true;
 
-// // * ---------------------------------------------------------------------------------------------------//
-// //  *Exercise 02 - Variable Naming //
-// // Write a better names for variables where it's necessary.
-// // let _name = 'mario';
-// // let *surname = 'Rossi';
-// // let 1age = 20;
-// // let ?isMarried = false;
-// // let job? = 'developer';
-// // let isGraduated2 = false;
+//  *Exercise 01 - Variable Naming // 
+// Create four variables (brand, model, production year, owner's name) and assign them a value. Use let and const where appropriate.
+// Create a variable to define if a car is new or not new.
+// Use the number, boolean and string data type to create the variables.
+// If you use a name with more than one word, remember to use the camel case naming convention.
+
+const brand = "brand";
+const model = "model";
+const productionYear = 2022;
+let ownersName = "ownersName";
+let isNew = true;
+
+// * ---------------------------------------------------------------------------------------------------//
+//  *Exercise 02 - Variable Naming //
+// Write a better names for variables where it's necessary.
+// let _name = 'mario';
+// let *surname = 'Rossi';
+// let 1age = 20;
+// let ?isMarried = false;
+// let job? = 'developer';
+// let isGraduated2 = false;
 
 // let _name = 'gizem';
 // let surname = 'Tuncer';
@@ -27,10 +30,10 @@
 // let job = 'developer';
 // let isGraduated = true;
 
-// // * ---------------------------------------------------------------------------------------------------//
-// //  *Exercise 03 - Numbers //
-// // Create 3 variables: area, x, y
-// // Use the variable called area to print in console the area of the rectangle.
+// * ---------------------------------------------------------------------------------------------------//
+//  *Exercise 03 - Numbers //
+// Create 3 variables: area, x, y
+// Use the variable called area to print in console the area of the rectangle.
 
 // let x,y,area;
 // x = 4;
@@ -39,10 +42,10 @@
 // console.log(area);
 
 
-// // * ---------------------------------------------------------------------------------------------------//
-// //  *Exercise 04 - String //
-// // Create the variables firstName, lastName and fullName.
-// // Assign them a value and print in the console the full name
+// * ---------------------------------------------------------------------------------------------------//
+//  *Exercise 04 - String //
+// Create the variables firstName, lastName and fullName.
+// Assign them a value and print in the console the full name
 
 // const firstName = "Gizem";
 // const lastName  = "Tuncer";
@@ -51,13 +54,13 @@
 
 
 
-// // * ---------------------------------------------------------------------------------------------------//
-// //  *Exercise 05 - Boolean //
-// // Create the variables isDoorClosed and isDogOutside. Set the isDoorClosed variable to true and isDogOutside variable to false.
-// // Run the script.
-// // Try to invert the variables values and see what happens.
+// * ---------------------------------------------------------------------------------------------------//
+//  *Exercise 05 - Boolean //
+// Create the variables isDoorClosed and isDogOutside. Set the isDoorClosed variable to true and isDogOutside variable to false.
+// Run the script.
+// Try to invert the variables values and see what happens.
 
-// // Create the variables here
+// Create the variables here
 // let isDoorClosed , isDogOutside ; 
 
 // isDoorClosed = true;
@@ -71,11 +74,13 @@
 //     } else console.log("Modify the variables values");
 
 
-// // * ---------------------------------------------------------------------------------------------------//    
-// // * Exercise 06 - Type Conversion//
-// // Convert the hello variable to a boolean data type.
-// // Convert the age variable to a string data type.
-// // Convert the isGraduated variable to a numeric data type
+// * ---------------------------------------------------------------------------------------------------//    
+// * Exercise 06 - Type Conversion//
+// Convert the hello variable to a boolean data type.
+// Convert the age variable to a string data type.
+// Convert the isGraduated variable to a numeric data type
+
+
 // let hello = 'Ciao'; //boolean 
 // let age = 18; //string
 // let isGraduated = false; //number
@@ -88,12 +93,12 @@
 // console.log(typeof age);
 // console.log(typeof isGraduated);
 
-// // * ---------------------------------------------------------------------------------------------------//    
-// // * Exercise 07 - Type Conversion//
-// // Convert the hello variable to a numeric data type and print it in the console.
-// // Convert the age variable to a boolean data type and print it in the console.
-// // Convert the isGraduated variable to a string data type and print it in the console.
-// // Try to explain the output of the hello variable casting.
+// * ---------------------------------------------------------------------------------------------------//    
+// * Exercise 07 - Type Conversion//
+// Convert the hello variable to a numeric data type and print it in the console.
+// Convert the age variable to a boolean data type and print it in the console.
+// Convert the isGraduated variable to a string data type and print it in the console.
+// Try to explain the output of the hello variable casting.
 
 // let hello = 'Ciao';     // number
 // let age = 18;       // boolean
@@ -105,14 +110,14 @@
 
 
 
-// // * ---------------------------------------------------------------------------------------------------//    
-// // * Exercise 08 - Type Conversion//
+// * ---------------------------------------------------------------------------------------------------//    
+// * Exercise 08 - Type Conversion//
 
-// // Create a variable and set it to true.
-// // Print the value in the console and the data type.
-// // Convert it to a numeric data type, print the value and the data type.
-// // Convert it to string data type, print the value and the data type.
-// // Finally, convert it to a boolean data type, print the value and the data type.
+// Create a variable and set it to true.
+// Print the value in the console and the data type.
+// Convert it to a numeric data type, print the value and the data type.
+// Convert it to string data type, print the value and the data type.
+// Finally, convert it to a boolean data type, print the value and the data type.
 
 // let x = true;
 // console.log(x);
@@ -131,10 +136,10 @@
 
 
 
-// // * ---------------------------------------------------------------------------------------------------//    
-// // * Exercise 09 - Variable Comparison//
+// * ---------------------------------------------------------------------------------------------------//    
+// * Exercise 09 - Variable Comparison//
 
-// // Try to predict the output of the comparisons before printing them in the console
+// Try to predict the output of the comparisons before printing them in the console
 // const firstName = "Mario";
 // const lastname = "Rossi";
 // const age = 27;
@@ -144,11 +149,11 @@
 // const firstYearCompleted = true;
 // const yearsCompleted = 1;
 
-// // * =================================================================================================//
-// /* Notice ; "==" vs "===" The most fundamental difference between two equals and three equals-
-// is the type and value comparison. When you use three equals, it compares both the type and -
-// value of two values, while if two equals equalizes the types of the values, it only compares values. */
-// // * =================================================================================================//
+// * =================================================================================================//
+/* Notice ; "==" vs "===" The most fundamental difference between two equals and three equals-
+is the type and value comparison. When you use three equals, it compares both the type and -
+value of two values, while if two equals equalizes the types of the values, it only compares values. */
+// * =================================================================================================//
 
 // console.log (firstName == lastname); //output: Mario not equal to Rossi so result is false
 // console.log(age <= average); //output: 27 equal to 27 so result is true
@@ -179,18 +184,18 @@ value of two values, while if two equals equalizes the types of the values, it o
 // * Exercise 11 - Variable Comparison//
 
 // Modify the second term of the expression in order to get true as result.
-10 < 9
-45 == 34
-true === 1
-false === 0
-1 == 0
-4 <= 2
-4 >= 8
-//Answers//
-console.log(10 < 20);
-console.log(45 == 45);
-console.log(true === true);
-console.log(false === false);
-console.log(1 == 1);
-console.log(4 <= 4);
-console.log(4 >= 4);
+// 10 < 9
+// 45 == 34
+// true === 1
+// false === 0
+// 1 == 0
+// 4 <= 2
+// 4 >= 8
+// //Answers//
+// console.log(10 < 20);
+// console.log(45 == 45);
+// console.log(true === true);
+// console.log(false === false);
+// console.log(1 == 1);
+// console.log(4 <= 4);
+// console.log(4 >= 4);
