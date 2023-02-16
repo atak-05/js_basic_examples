@@ -232,9 +232,6 @@ for (let index = 0; index <= 10 ; index++) {
     console.log(sum);
 }
 
-// * ---------------------------------------------------------------------------------------------------//
-//  *Exercise 29 -  Functions  // 
-console.log("------Exercise 29-Answer ---------");
 
 
 
