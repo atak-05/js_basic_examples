@@ -197,7 +197,7 @@ console.log("------Exercise 11-Answer ---------");
 // 1 == 0
 // 4 <= 2
 // 4 >= 8
-// //Answers//
+//Answers//
 // console.log(10 < 20);
 // console.log(45 == 45);
 // console.log(true === true);

@@ -124,18 +124,18 @@ if(_name && surname){
 
 console.log("------Exercise 20-Answer ---------");
 // Create a variable called primitive and assign it a value. Check if the value is number, string or boolean type and print it in the console.
-let primitive =2;
+let primitive = 2;
 let type = typeof primitive ; 
 if (typeof primitive ==="string"){
     console.log("Type is string");
 }else if (typeof primitive ==="number"){console.log("Type is number")
 }else if (typeof primitive ==="boolen"){console.log("Type is boolen")
 }else {
-    console.log("Variable type not studied yet");
+    // console.log("Variable type not studied yet");
 }
 
 // * ---------------------------------------------------------------------------------------------------//
-//  *Exercise 20 -  if Statement // 
+//  *Exercise 21 -  if Statement // 
 console.log("------Exercise 21-Answer ---------");
 /* Create a variable called password.
  If the password length is between 4 and 6, print the message Password length is correct, otherwise print the message Password not valid. */
@@ -146,5 +146,95 @@ if(password.length < 4 || password.length > 6){
 }else{
     console.log("Password length is correct");
 }
+
+
+// * ---------------------------------------------------------------------------------------------------//
+//  *Exercise 22 -  switch Statement // 
+console.log("------Exercise 22-Answer ---------");
+
+// Rewrite the exercise 20, by using a Switch statement.
+
+let primitive2 = 2;
+switch(primitive2){
+    case 1 :
+        typeof primitive2 == "string";
+        console.log("String value");
+        break;
+    case 2:
+        typeof primitive2 == "number";
+        console.log("Number value");
+        break;
+    case 3:
+        typeof primitive2 == "boolean";
+        console.log("Boolean value");
+        break;
+}
+
+// * ---------------------------------------------------------------------------------------------------//
+//  *Exercise 23 -  switch Statement // 
+console.log("------Exercise 23-Answer ---------");
+let roomType = "Basic Room";
+switch (roomType) {
+    case "Basic Room":
+        console.log("Price of Basic Room --> 50€");
+        break;
+    case "Junior Suite Room":
+        console.log("Price of Junior Suite Room --> 80€");
+        break;
+    case "Master Suite Room":
+        console.log("Price of Master Suite Room --> 100€");
+        break;
+}
+
+// * ---------------------------------------------------------------------------------------------------//
+
+//  *Exercise 24 -  Loops  // 
+console.log("------Exercise 24-Answer ---------");
+
+for(let i = 1 ; i < 11 ; i++){
+    console.log(i);
+}
+
+
+// * ---------------------------------------------------------------------------------------------------//
+//  *Exercise 25 -  Loops  // 
+console.log("------Exercise 25-Answer ---------");
+for (let i = 0 ; i >= -10 ; i--){
+    console.log(i);
+};
+
+// * ---------------------------------------------------------------------------------------------------//
+//  *Exercise 26 -  Loops  // 
+console.log("------Exercise 26-Answer ---------");
+let i = 0 ;
+while (i <= 10 ){
+    console.log(i);
+    i++;
+}
+
+
+// * ---------------------------------------------------------------------------------------------------//
+//  *Exercise 27 -  Loops  // 
+console.log("------Exercise 27-Answer ---------");
+for (let index = 0; index <= 20; index++) {
+        if(index %2 == 0 ){
+            console.log(index);
+        }
+}
+
+
+// * ---------------------------------------------------------------------------------------------------//
+//  *Exercise 28 -  Loops  // 
+console.log("------Exercise 28-Answer ---------");
+let sum= 0;
+for (let index = 0; index <= 10 ; index++) {
+    sum = index +sum; 
+    console.log(sum);
+}
+
+// * ---------------------------------------------------------------------------------------------------//
+//  *Exercise 29 -  Functions  // 
+console.log("------Exercise 29-Answer ---------");
+
 
 
