@@ -121,3 +121,9 @@ studentS.push({id : 3, name:"Francesco",surname: "Verdi", age: 41 } ,)
 console.log(studentS);
 console.log(studentS);
 
+
+
+
+
+
+
