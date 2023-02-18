@@ -1,5 +1,5 @@
 //* =======================================================================================
-//*DATE BUILT-IN FUNCTIONS ================================================================
+//*DATE BUILT-IN OBJECT ================================================================
 
 
 //* prototype.getTime() ===================================================================
@@ -18,3 +18,7 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 const d = new Date("2021-03-25"); // if data parameter be taking no arguments, return the date in now time const d = new Date()
 let month = months[d.getMonth()];
 console.log(month); //output: March
+
+
+const now = new Date();
+console.log(now.getDate());
