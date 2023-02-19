@@ -1,5 +1,5 @@
 
-//*https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+//*reference : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
 
 //* Array.prototype.at()
 //* ====================================================================
@@ -7,16 +7,16 @@
 allowing for positive and negative integers.
 Negative integers count back from the last item in the array.*/
 
-const array1 = [5, 12, 8, 130, 44];
+const arra4 = [5, 12, 8, 130, 44];
 
 let index = 2;
 
-console.log(`Using an index of ${index} the item returned is ${array1.at(index)}`);
+console.log(`Using an index of ${index} the item returned is ${arra4.at(index)}`);
 // Expected output: "Using an index of 2 the item returned is 8"
 
 index = -2;
 
-console.log(`Using an index of ${index} item returned is ${array1.at(index)}`);
+console.log(`Using an index of ${index} item returned is ${arra4.at(index)}`);
 // Expected output: "Using an index of -2 item returned is 130"
 
 
@@ -36,14 +36,14 @@ console.log(array3);
 /*The copyWithin() method shallow copies part of an array to another location-
  in the same array and returns it without modifying its length. */ 
 
-const array1 = ['a', 'b', 'c', 'd', 'e'];
+const arra5 = ['a', 'b', 'c', 'd', 'e'];
 
 // Copy to index 0 the element at index 3
-console.log(array1.copyWithin(0, 3, 4));
+console.log(arra5.copyWithin(0, 3, 4));
 // Expected output: Array ["d", "b", "c", "d", "e"]
 
 // Copy to index 1 all elements from index 3 to the end
-console.log(array1.copyWithin(1, 3));
+console.log(arra5.copyWithin(1, 3));
 // Expected output: Array ["d", "d", "e", "d", "e"] 
 
 //*Array.prototype.entries() 
@@ -51,9 +51,9 @@ console.log(array1.copyWithin(1, 3));
 /*The entries() method returns a new Array Iterator object-
  that contains the key/value pairs for each index in the array.*/
 
-const array1 = ['a', 'b', 'c'];
+const arra6 = ['a', 'b', 'c'];
 
-const iterator1 = array1.entries();
+const iterator1 = arra6.entries();
 
 console.log(iterator1.next().value);
 // Expected output: Array [0, "a"]
