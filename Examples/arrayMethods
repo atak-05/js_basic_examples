@@ -1,0 +1,19 @@
+const array13 = array11
+array13.push(111,123);
+array13.reverse();
+array13.unshift(110);
+array13.shift();
+array13.pop();
+array11.forEach(element => console.log(element*2));
+console.log(array13);
+console.log(array11.join('*'));
+sum = array11.reduce((acc,element) => acc + element, 0);
+console.log(sum);
+array6=[1,2,3,4];
+sum2 = array6.reduce((acc,element)=>acc+element,0);
+console.log(sum2);
+
+console.log(array6.filter(element => element%2 === 0));
+
+array67=[0,1,[2,3,[4,5]]]
+console.log(array67.flat(2));

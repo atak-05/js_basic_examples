@@ -1,5 +1,7 @@
 //Turn off the comment line of each blog to work. Note: The shortcut for this is CTRL + K + U
 
+const a = () => console.log("hey") 
+const time1 = setTimeout(a, 1000)
 
 //  *Exercise 01 - Variable Naming // 
 // Create four variables (brand, model, production year, owner's name) and assign them a value. Use let and const where appropriate.
