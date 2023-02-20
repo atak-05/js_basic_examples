@@ -25,5 +25,5 @@ const palindrome = (str) => {
         reversed = x + reversed;
     }
     console.log(reversed===str);
-})('gizem')
+})('abba')
 

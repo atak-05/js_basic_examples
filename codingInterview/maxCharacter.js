@@ -20,11 +20,12 @@ const maxChar = (str) => {
     // console.log(obj);
 
 //* other ways
-    let maxNum = 0 ;
+/*     let maxNum = 0 ;
     let maximumChar  = '';
     
     for (let char in obj){
         if (obj[char]>= maxNum){
+            console.log(obj[char]);
             maxNum = obj[char];
             maximumChar = char;
             console.log(maximumChar);
@@ -35,4 +36,19 @@ const maxChar = (str) => {
 
 
 }//  we can find the maximum character
-maxChar('gizemme')
+maxChar('cenkkk') */
+
+}
+let the ;
+let num = 0
+const a = "88811999";
+const a1 = a.split('');
+console.log(a1);
+for (let i of a1){
+    console.log(a1[i]);
+
+    /* if (a1[i] >= num){
+        console.log(a1[i]);
+
+} */
+}console.log({"en çok tekrarlanan karakter " : + num  });

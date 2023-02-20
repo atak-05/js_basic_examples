@@ -17,9 +17,9 @@
 
 
 const revInt = (n) => {
-    if(n < 0){
+    /* if(n < 0){
         return -1*parseInt(n.toString().split('').reverse().join(''));
-    }
+    } */
    return parseInt(n.toString().split('').reverse().join(''));
 
 }
